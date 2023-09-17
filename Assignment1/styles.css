@@ -40,5 +40,8 @@ body {
     font-weight: bold;
     font-style: italic; /* Add this line to make it italic */
 }
+.italic{
+  font-style: italic;
+}
 
   
