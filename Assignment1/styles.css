@@ -30,4 +30,15 @@ body {
   p, li, dd, dt, address {
     line-height: 1.5;
   }
+
+.top-left {
+    text-align: right;
+    font-style: italic;
+}
+
+.name{
+    font-weight: bold;
+    font-style: italic; /* Add this line to make it italic */
+}
+
   
