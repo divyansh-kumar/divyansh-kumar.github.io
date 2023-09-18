@@ -63,7 +63,7 @@ p, li {
 }
 
 body > * {
-  background-color: red;
+  background-color: rgb(85, 212, 84);
   padding: 1%;
 }
 
@@ -145,4 +145,34 @@ aside img {
 
 footer {
   margin-top: 10px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.left-column {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.right-column {
+  flex: 1;
+}
+
+.grid2x2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* 2 columns */
+  grid-gap: 20px; /* Adjust the gap between grid items as needed */
+}
+
+.griditem {
+  text-align: center;
+}
+
+.griditem img {
+  max-width: 100%;
+  height: auto;
 }
