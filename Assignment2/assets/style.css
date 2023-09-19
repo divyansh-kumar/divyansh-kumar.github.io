@@ -192,7 +192,7 @@ footer {
 }
 
 .right-column {
-  flex: 0.26;
+  flex: 0.25;
   background-color: rgb(39, 233, 42);
   padding: 20px;
   margin-left: 5px;
@@ -204,7 +204,7 @@ footer {
 }
 
 .griditem {
-  text-align: center;
+  text-align: center;  /* currently removed it */
 }
 
 .griditem img {
