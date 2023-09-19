@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Koulen&family=Lato&family=Nunito&family=Playfair+Display:ital@1&family=Prata&family=Raleway:ital,wght@1,100&family=Roboto&family=Roboto+Condensed&family=Teko&display=swap');
+
+.Head h1{
+    text-align: center;
+    color: #fff;
+}
+
+body{
+    background-color: black;
+}
+.button-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 200px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 100px;
+  }
+  
+  .left-buttons,
+  .right-buttons {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .btn {
+    font-family: Roboto, sans-serif;
+    font-weight: 0;
+    font-size: 14px;
+    color: #fff;
+    background-color: #0066CC;
+    padding: 20px 30px;
+    border: 2px solid #0066cc;
+    box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+    border-radius: 50px;
+    transition: 516ms;
+    transform: translateY(0);
+    cursor: pointer;
+    margin: 30px 0; 
+  }
+  
+  .btn:hover {
+    transition: 516ms;
+    padding: 30px 70px;
+    transform: translateY(-0px);
+    background-color: #fff;
+    color: #0066cc;
+    border: solid 2px #0066cc;
+  }
+  
+
+
