@@ -59,6 +59,7 @@ p, li {
 header {
   display: flex;
   flex-flow: row wrap;
+  margin-bottom: 10px;
 }
 
 body > * {
