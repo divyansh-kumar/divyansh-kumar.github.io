@@ -8,4 +8,13 @@ html {
   font-family: sans-serif;
 }
 
+.box{
+	background-color: red;
+	width: 200px;      
+    height: 100px;    
+    padding: 20px;    
+	text-align: center;
+
+}
+
 /* Your CSS below here */
