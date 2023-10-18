@@ -11,9 +11,14 @@ html {
 .box{
 	background-color: red;
 	width: 200px;      
-    height: 100px;    
+    height: 150px;    
+	margin: auto;
     padding: 20px;    
 	text-align: center;
+	border: 2px;
+	border-radius: 12px;
+	justify-content: center;
+    align-items: center;
 
 }
 
