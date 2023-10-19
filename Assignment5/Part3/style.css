@@ -55,7 +55,7 @@ html {
 
 h1 {
   text-align: center;
-
+  font-family: 'myfont', sans-serif;
   font-size: 5rem;
 }
 
@@ -98,5 +98,12 @@ a[href*="http"] {
   padding-right: 15px;
 
   background-size: 13px 13px;
+}
+
+@font-face {
+  font-family: 'myfont';
+  src: url('Copse-Regular.ttf') format('truetype'); 
+  font-weight: normal;
+  font-style: normal;
 }
 
