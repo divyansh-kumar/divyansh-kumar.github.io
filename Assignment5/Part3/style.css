@@ -62,3 +62,11 @@ h1 {
 h2 {
   font-size: 2rem;
 }
+
+nav ul {
+  margin-top: 1rem;
+}
+
+nav li {
+  margin-bottom: 4rem;
+}
