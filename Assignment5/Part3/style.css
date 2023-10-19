@@ -93,3 +93,10 @@ nav li a:focus, nav li a:hover {
   color: white;
 }
 
+a[href*="http"] {
+  background: url(external-link-52.png) no-repeat 100% 0;
+  padding-right: 15px;
+
+  background-size: 13px 13px;
+}
+
