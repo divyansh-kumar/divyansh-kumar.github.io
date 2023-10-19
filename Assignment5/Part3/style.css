@@ -107,3 +107,9 @@ a[href*="http"] {
   font-style: normal;
 }
 
+nav ul li a {
+  text-decoration: none;
+  color: rgb(181, 112, 106);
+}
+
+
