@@ -1,3 +1,8 @@
+/* <!--
+	Name: Divyansh kumar
+	File: main.js
+	Date: 22 November 2023
+	--> */
 const displayedImage = document.querySelector('.displayed-img');
 const thumbBar = document.querySelector('.thumb-bar');
 

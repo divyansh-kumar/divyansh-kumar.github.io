@@ -1,3 +1,9 @@
+/* <!--
+	Name: Divyansh kumar
+	File: main.ja
+	Date: 22 November 2023
+	--> */
+
 // setup canvas
 
 const canvas = document.querySelector('canvas');
