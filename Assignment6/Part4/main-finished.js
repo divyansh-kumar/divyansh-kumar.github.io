@@ -8,6 +8,8 @@
 const canvas = document.querySelector('canvas');
 const ctx = canvas.getContext('2d');
 
+const p_tag = document.getElementById('count');
+
 const width = canvas.width = window.innerWidth;
 const height = canvas.height = window.innerHeight;
 
@@ -22,6 +24,9 @@ function random(min, max) {
 function randomRGB() {
   return `rgb(${random(0, 255)},${random(0, 255)},${random(0, 255)})`;
 }
+
+
+let collisions = 25;
 
 class Ball {
 
@@ -71,6 +76,7 @@ class Ball {
     
           if (distance < this.size + ball.size) {
             ball.color = this.color = randomRGB();
+            collisions = collisions - 1;
           }
         }
       }
