@@ -27,3 +27,24 @@ for (let i = 1; i <= images.length; i++) {
   }
 
 /* Wiring up the Darken/Lighten button */
+
+
+
+btn.addEventListener('click', function() {
+
+	const btnClass = btn.getAttribute('class');
+
+	if (btnClass === 'dark') {
+	  btn.setAttribute('class', 'light');
+	  overlay.style.backgroundColor = 'rgba(0,0,0,0.5)';
+	  btn.textContent = 'Lighten';
+
+	} else {
+
+	  btn.setAttribute('class', 'dark');
+	  overlay.style.backgroundColor = 'rgba(0,0,0,0)';
+	  btn.textContent = 'Darken';
+	  
+	}
+
+  });
