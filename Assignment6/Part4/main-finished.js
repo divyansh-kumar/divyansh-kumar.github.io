@@ -28,15 +28,18 @@ function randomRGB() {
 
 let collisions = 25;
 
+
 class Ball {
 
-   constructor(x, y, velX, velY, color, size) {
+   constructor(x, y, velX, velY, color, size, exists = true) {
       this.x = x;
       this.y = y;
       this.velX = velX;
       this.velY = velY;
       this.color = color;
       this.size = size;
+      this.exists = exists;
+
    }
 
    draw() {
@@ -69,21 +72,23 @@ class Ball {
 
    collisionDetect() {
       for (const ball of balls) {
-        if (!(this === ball) && ball.exists) {
-          const dx = this.x - ball.x;
-          const dy = this.y - ball.y;
-          const distance = Math.sqrt(dx * dx + dy * dy);
-    
-          if (distance < this.size + ball.size) {
-            ball.color = this.color = randomRGB();
-            collisions = collisions - 1;
-          }
-        }
+         if (!(this === ball) && ball.exists) {
+            const dx = this.x - ball.x;
+            const dy = this.y - ball.y;
+            const distance = Math.sqrt(dx * dx + dy * dy);
+
+            if (distance < this.size + ball.size) {
+              ball.color = this.color = randomRGB();
+              collisions = collisions - 1;
+              p_tag.textContent = "Ball Count: " + collisions;
+            }
+         }
       }
-    }
+   }
     
 
 }
+
 
 window.addEventListener("keydown", (e) => {
    switch (e.key) {
