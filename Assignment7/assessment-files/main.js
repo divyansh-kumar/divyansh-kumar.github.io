@@ -51,3 +51,17 @@ function submitComment() {
   nameField.value = '';
   commentField.value = '';
 }
+
+
+function toggleComments(event) {
+  if (event.key === 'Enter' || event.keyCode === 13) {
+    let showHideText = showHideBtn.textContent;
+    if(showHideText === 'Show comments') {
+      showHideBtn.textContent = 'Hide comments';
+      commentWrapper.style.display = 'block';
+    } else {
+      showHideBtn.textContent = 'Show comments';
+      commentWrapper.style.display = 'none';
+    }
+  }
+}
