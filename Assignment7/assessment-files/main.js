@@ -1,3 +1,9 @@
+/* <!--
+	Name: Divyansh kumar
+	File: main.js
+	Date: 11 December 2023
+	Assessment: Accessibility troubleshooting
+	--> */
 // functionality for showing/hiding the comments section
 
 const showHideBtn = document.querySelector('.show-hide');
